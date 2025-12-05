@@ -205,19 +205,6 @@ The UI embraces the retro-futuristic aesthetic:
 
 MIT License - Open Source
 
-## 🙏 Acknowledgments
-
-- Built for the Kiroween 2024 Hackathon
-- Gopher protocol specification: RFC 1436
-- Active Gopherspace community keeping the protocol alive
-- Kiro AI for enabling rapid spec-driven development
-
-## 🔗 Links
-
-- **Live Demo:** [Coming soon after deployment]
-- **Video Demo:** [Coming soon]
-- **Kiroween Hackathon:** https://devpost.com/kiroween
-
 ---
 
 **Built with Kiro • Resurrection Category • Kiroween 2024**
