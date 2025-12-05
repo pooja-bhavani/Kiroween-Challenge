@@ -1,5 +1,9 @@
 # 🔮 Gopher Browser - Resurrection
 
+https://modern-gopher.netlify.app/
+
+<img width="1470" height="956" alt="Screenshot 2025-12-05 at 9 46 56 PM" src="https://github.com/user-attachments/assets/0ab81ac0-1792-4637-ae01-310fbbb06d57" />
+
 A modern web interface for the ancient Gopher protocol (RFC 1436), bringing dead technology back to life with contemporary innovations.
 
 ## 🎃 Kiroween Hackathon Submission
