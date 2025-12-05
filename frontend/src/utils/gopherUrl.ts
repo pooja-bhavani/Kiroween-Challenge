@@ -1,4 +1,4 @@
-import { GopherUrl } from '../types';
+import { GopherUrl, GopherMenuItem } from '../types';
 
 /**
  * Parse a Gopher URL string into components
