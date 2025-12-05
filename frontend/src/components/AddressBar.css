@@ -1,0 +1,59 @@
+.address-bar {
+  display: flex;
+  gap: 8px;
+  padding: 16px;
+  background: var(--bg-light);
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.nav-button,
+.action-button,
+.go-button {
+  background: var(--bg-light);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  transition: all 0.2s;
+}
+
+.nav-button:hover:not(:disabled),
+.action-button:hover:not(:disabled),
+.go-button:hover {
+  background: var(--primary-color);
+  color: var(--bg-color);
+  box-shadow: 0 0 10px var(--primary-color);
+}
+
+.nav-button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.url-form {
+  flex: 1;
+  display: flex;
+  gap: 8px;
+}
+
+.url-input {
+  flex: 1;
+  background: var(--bg-color);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 8px 12px;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+}
+
+.url-input:focus {
+  outline: none;
+  box-shadow: 0 0 10px var(--primary-color);
+}
+
+.url-input::placeholder {
+  color: var(--primary-color);
+  opacity: 0.4;
+}

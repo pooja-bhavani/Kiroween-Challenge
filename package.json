@@ -1,0 +1,23 @@
+{
+  "name": "gopher-browser",
+  "version": "1.0.0",
+  "description": "Modern web interface for the Gopher protocol - Kiroween Hackathon",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "build": "npm run build --workspace=backend && npm run build --workspace=frontend",
+    "test": "npm run test --workspaces"
+  },
+  "keywords": ["gopher", "browser", "retro", "resurrection", "kiroween"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

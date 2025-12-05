@@ -1,0 +1,94 @@
+.content-display {
+  padding: 20px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.content-display.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 12px;
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--primary-color);
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.menu-item:hover {
+  background: var(--bg-light);
+  border-color: var(--primary-color);
+  box-shadow: 0 0 10px var(--primary-color);
+}
+
+.menu-item.info {
+  cursor: default;
+  opacity: 0.7;
+}
+
+.menu-item.info:hover {
+  background: transparent;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.menu-item.error {
+  color: #ff3333;
+  border-color: #ff3333;
+}
+
+.menu-item.error:hover {
+  background: rgba(255, 51, 51, 0.1);
+  box-shadow: 0 0 10px rgba(255, 51, 51, 0.3);
+}
+
+.menu-item.binary .download-badge {
+  margin-left: auto;
+  font-size: 10px;
+  opacity: 0.6;
+}
+
+.item-icon {
+  font-size: 16px;
+  width: 20px;
+  text-align: center;
+}
+
+.item-display {
+  flex: 1;
+}
+
+.content-display.text {
+  background: var(--bg-light);
+  border: 1px solid var(--primary-color);
+  opacity: 0.9;
+}
+
+.content-display.text pre {
+  color: var(--primary-color);
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin: 0;
+}
+
+.content-display.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+  opacity: 0.5;
+  font-style: italic;
+}
